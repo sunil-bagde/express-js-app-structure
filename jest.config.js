@@ -20,4 +20,13 @@ module.exports = {
     '<rootDir>/dist/',
     '<rootDir>/node_modules/',
   ],
+  collectCoverageFrom: [
+    'app/**/*.{ts,js}',
+    '!**/build/**',
+    '!**/coverage/**',
+    '!**/dist/**',
+    '!**/server/**',
+    '!**/styles/**',
+    '!**/node_modules/**',
+  ],
 };
