@@ -6,8 +6,6 @@ import { getData } from '~/lib/client';
 
 const app = express();
 
-const port = 8000;
-
 const home = (
   request: Request,
   response: Response,
@@ -18,6 +16,4 @@ const home = (
 
 app.get('/', home);
 
-app.listen(port, () => {
-  console.log(`app started: http://localhost:${port}`);
-});
+export default app;
