@@ -1,6 +1,5 @@
 const getData = () => {
-    return "Node js!!";
+  return 'Node js!!!';
 };
 
-
-export {getData};
+export { getData };
